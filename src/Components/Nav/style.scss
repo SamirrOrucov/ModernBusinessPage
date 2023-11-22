@@ -1,0 +1,25 @@
+$main_color:"#a4b2ae";
+.nav_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    p{
+        font-size: 22px;
+        color: white;
+    }
+    ul{
+        color: #a4b2ae;
+        display: flex;
+        gap: 24px;
+        li{
+            display: flex;
+            gap: 8px;
+            cursor: pointer;
+            transition: 300ms;
+            &:hover{
+                color: aliceblue;
+            }
+                }
+    }
+}

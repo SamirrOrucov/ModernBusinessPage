@@ -1,0 +1,15 @@
+.footer_container{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+    background-color: #212529;
+    color: white;
+    ul{
+        display: flex;
+        gap: 5px;
+        font-size: 14px;
+        li{
+            cursor: pointer;
+        }
+    }
+}

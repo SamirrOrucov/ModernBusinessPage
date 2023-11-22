@@ -1,0 +1,15 @@
+.sec1_container {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+ .sec1_text{
+    h5 {
+        font-size: 34px;
+      }
+      width: 350px;
+ }
+  .features {
+    display: flex;
+    justify-content: center;
+  }
+}
